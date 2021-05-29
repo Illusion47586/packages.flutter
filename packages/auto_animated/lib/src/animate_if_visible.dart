@@ -174,7 +174,7 @@ class _AnimateIfVisibleWrapperState extends State<AnimateIfVisibleWrapper> {
       scrollInfo.metrics.minScrollExtent,
       scrollInfo.metrics.maxScrollExtent,
     );
-    return true;
+    return false;
   }
 
   void _setDirection(
